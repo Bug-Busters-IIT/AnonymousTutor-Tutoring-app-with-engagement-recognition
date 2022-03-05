@@ -1,0 +1,11 @@
+.content {
+    background-color: rgba(35, 35, 35, 0.36);
+    opacity: 0.5;
+}
+.card {
+    background-color: rgba(35, 35, 35, 0.36);
+    border-radius: 10px;
+}
+.card-title{
+    color: #fef5f5;
+}

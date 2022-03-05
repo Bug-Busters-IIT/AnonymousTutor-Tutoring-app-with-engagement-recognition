@@ -1,0 +1,14 @@
+.style {
+   text-align: center;
+    font-family: RammettoOne-Regular;
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+    margin-top: 15px;
+}
+@font-face {
+    font-family: "RammettoOne-Regular";
+    src: local("RammettoOne-Regular"),
+    url("../../../fonts/RammettoOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+}

@@ -1,0 +1,99 @@
+.comming-soon-btn {
+    /*position: absolute;*/
+    width: 223px;
+    height: 63px;
+    background: rgba(0, 0, 0, 0.94);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    border: none;
+}
+
+.submit{
+    /*position: absolute;*/
+    width: 223px;
+    height: 63px;
+    background:  #747272;;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    border: none;
+}
+
+.session{
+    /*position: absolute;*/
+    width: 262px;
+    height: 65px;
+    background:  #747272;;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    border: none;
+}
+.accept-request-btn {
+    /*position: absolute;*/
+    width: 338px;
+    height: 73px;
+    background:#747272;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    border: none;
+}
+.request-btn {
+    /*position: absolute;*/
+    width: 333px;
+    height: 59px;
+    background: #747272;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    border: none;
+
+}
+.login-btn {
+    width: 84px;
+    height: 18px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 96px;
+    height: 39px;
+    left: 750px;
+    top: 405px;
+    background: #747272;
+    border-radius: 10px;
+    border: none;
+}
+/*.row{*/
+/*    z-index: -1;*/
+/*}*/

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Play-Bold";
+    src: local("Play-Bold"),
+    url("../../../fonts/Play-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+    url("../../../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}

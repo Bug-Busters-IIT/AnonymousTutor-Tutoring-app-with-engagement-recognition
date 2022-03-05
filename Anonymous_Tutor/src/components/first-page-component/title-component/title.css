@@ -1,0 +1,19 @@
+.text {
+    font-family: Arial;
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fef5f5;
+    text-align: center;
+}
+
+.title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
