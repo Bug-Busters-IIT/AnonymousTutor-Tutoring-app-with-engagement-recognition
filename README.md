@@ -1,4 +1,4 @@
-                                                                 ***SDGP PROJECT- Bug Busters- SE 20***
+***SDGP PROJECT- Bug Busters- SE 20***
 
 We are team Bug Busters, comprising five second year students following BEng(Hons) Software Engineering at the Informatics Institute of Technology affiliated with University of Westminster, UK. 
 
