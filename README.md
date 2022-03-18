@@ -14,25 +14,25 @@ In general, a majority of students need an extra support in the subjects they le
 Open Command Prompt
 
 <dl>Flask server
-  <dt>  * Navigate to Anonymous Tutor/flask_backend:</dt>
+    * <dt>Navigate to Anonymous Tutor/flask_backend:</dt>
 
   <dt>Create a virtual python environment</dt>
-  <dd>py -m env env</dd>
+   <dd>py -m env env</dd>
 
-  <dt>  * Activate the created environment</dt>
+    * <dt>Activate the created environment</dt>
    <dd>.\env\Scripts\activate</dd>
 
-  <dt>  * Install the required libraries</dt>
+    * <dt>Install the required libraries</dt>
    <dd>pip install flask</dd>
    <dd>pip install python-dotenv</dd>
    <dd>pip install mediapipe</dd>
    <dd>pip install tensorflow</dd>
 
-  <dt>  * create a .flaskenv and add the following code into it</dt>
+    * <dt>create a .flaskenv and add the following code into it</dt>
    <dd>FLASK_APP=main.py</dd>
    <dd>FLASK_ENV=development</dd>
 
-  <dt>  * run flask server</dt>
+    * <dt>run flask server</dt>
    <dd>flask run</dd>
   </dl>
 
