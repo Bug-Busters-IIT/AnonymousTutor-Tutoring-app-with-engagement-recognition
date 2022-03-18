@@ -34,6 +34,7 @@ Open Command Prompt
 
   <dt>run flask server</dt>
    <dd>flask run</dd>
+  </dl>
 
 *Install required npm libraries
 ------------------------------------
