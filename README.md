@@ -34,6 +34,10 @@ Navigate to Anonymous Tutor/backend:
   npm install nodemon
 
   nodemon server
+  
+Navigate to Anonymous Tutor  
+  
+  npm start
 
 
 
