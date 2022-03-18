@@ -61,9 +61,8 @@ Flask server
 ------------------------------------
 
 
-             npm install axios
-             
-             
+             npm install axios             
+           
              npm install nodemon
  
 To Start the nodemon server
@@ -79,21 +78,15 @@ To Start the nodemon server
 
             npm install cors
 
-
             npm install cookie-session
-
 
             npm install cookie-parser
 
-
             npm install express-session
-
 
             npm install connect-mongodb-session
 
-
             npm install nodemailer
-
 
             npm install bcrypt
             
@@ -105,7 +98,6 @@ To start React application
 
 
             npm install
-
 
             npm start
 
