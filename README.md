@@ -1,4 +1,4 @@
-##SDGP PROJECT- Bug Busters- SE 20
+# SDGP PROJECT- Bug Busters- SE 20
 
 We are team Bug Busters, comprising five second year students following BEng(Hons) Software Engineering at the Informatics Institute of Technology affiliated with University of Westminster, UK. 
 
@@ -13,27 +13,27 @@ In general, a majority of students need an extra support in the subjects they le
 ------------------------------------
 Open Command Prompt
 
--Flask server
-   -Navigate to Anonymous Tutor/flask_backend:
+Flask server
+  --* Navigate to Anonymous Tutor/flask_backend:
 
-   -Create a virtual python environment
-     -py -m env env
+  --* Create a virtual python environment
+     py -m env env
 
-   -Activate the created environment
-     -.\env\Scripts\activate
+  --* Activate the created environment
+     .\env\Scripts\activate
 
-   -Install the required libraries
-     -pip install flask
-     -pip install python-dotenv
-     -pip install mediapipe
-     -pip install tensorflow
+  --*  Install the required libraries
+     pip install flask
+     pip install python-dotenv
+     pip install mediapipe
+     pip install tensorflow
 
 
-   create a .flaskenv and add the following code into it
+  --*  create a .flaskenv and add the following code into it
       FLASK_APP=main.py
       FLASK_ENV=development
 
-   run flask server
+  --*  run flask server
      flask run
 
 *Install required npm libraries
@@ -44,10 +44,10 @@ Open Command Prompt
 *To Start the nodemon server*
 ------------------------------------
 
-Navigate to Anonymous Tutor/backend:
+--* Navigate to Anonymous Tutor/backend:
   nodemon server
   
-If the above code display an error install following libraries:
+--* If the above code display an error install following libraries:
   npm install cors
   npm install cookie-session
   npm install cookie-parser
@@ -58,7 +58,7 @@ If the above code display an error install following libraries:
   
 *To start React application*  
 ------------------------------------
-Navigate to Anonymous Tutor  
+--* Navigate to Anonymous Tutor  
   npm install
   npm start
 
