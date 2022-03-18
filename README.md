@@ -9,26 +9,26 @@ In general, a majority of students need an extra support in the subjects they le
 ## Installing Guide lines
 =====================================
 
-<dl> ### Installing for the first time
+### Installing for the first time
 ------------------------------------
 
-  * <dt>Open Command Prompt
+  * Open Command Prompt
 
-  * <dt>Flask server
+  * Flask server
  
-  * <dt>Navigate to Anonymous Tutor/flask_backend:</dt>
+  * Navigate to Anonymous Tutor/flask_backend:
 
-  * <dt>Create a virtual python environment</dt>
+  * Create a virtual python environment
  
  
-    <dd>py -m env env</dd>
+             py -m env env</dd>
 
-  * <dt>Activate the created environment</dt>
+  * Activate the created environment
  
  
-    <dd>.\env\Scripts\activate</dd>
+             .\env\Scripts\activate
 
-  * <dt>Install the required libraries</dt>
+  * Install the required libraries
  
  
              pip install flask
@@ -44,13 +44,15 @@ In general, a majority of students need an extra support in the subjects they le
  
  
 
-  * <dt>create a .flaskenv and add the following code into it</dt>
-    <dd>FLASK_APP=main.py</dd>
-    <dd>FLASK_ENV=development</dd>
+  * create a .flaskenv and add the following code into it
 
-  * <dt>run flask server</dt>
-    <dd>flask run</dd>
-  </dl>
+
+             FLASK_APP=main.py</dd>
+             FLASK_ENV=development</dd>
+
+  * run flask server
+             flask run
+  
 
  Install required npm libraries
 ------------------------------------
