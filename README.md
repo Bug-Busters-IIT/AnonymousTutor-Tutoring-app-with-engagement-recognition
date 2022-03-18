@@ -47,22 +47,22 @@ To Start the nodemon server
 ------------------------------------
 
   * Navigate to Anonymous Tutor/backend:
-    nodemon server
+    ..nodemon server..
   
   * If the above code display an error install following libraries:
-    npm install cors
-    npm install cookie-session
-    npm install cookie-parser
-    npm install express-session
-    npm install connect-mongodb-session
-    npm install nodemailer
-    npm install bcrypt
+    ..npm install cors..
+    ..npm install cookie-session..
+    ..npm install cookie-parser..
+    ..npm install express-session..
+    ..npm install connect-mongodb-session..
+    ..npm install nodemailer..
+    ..npm install bcrypt..
   
 To start React application  
 ------------------------------------
   * Navigate to Anonymous Tutor  
-    npm install
-    npm start
+    ..npm install..
+    ..npm start..
 
 
 
