@@ -9,12 +9,13 @@ In general, a majority of students need an extra support in the subjects they le
 ## Installing Guide lines
 =====================================
 
-### Installing for the first time
+<dl>### Installing for the first time
 ------------------------------------
 
-<dl>Open Command Prompt
+  * <dt>Open Command Prompt
 
-<dl>Flask server
+  * <dt>Flask server
+ 
   * <dt>Navigate to Anonymous Tutor/flask_backend:</dt>
 
   * <dt>Create a virtual python environment</dt>
