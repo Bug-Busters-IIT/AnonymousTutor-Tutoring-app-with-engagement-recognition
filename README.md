@@ -7,10 +7,10 @@ In general, a majority of students need an extra support in the subjects they le
 
 
 # Installing Guide lines
-=====================================
+------------------------------------
 
 ### Installing for the first time
-------------------------------------
+
 
 Open Command Prompt
 
