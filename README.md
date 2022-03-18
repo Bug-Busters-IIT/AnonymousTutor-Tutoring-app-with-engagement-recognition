@@ -7,6 +7,9 @@ In general, a majority of students need an extra support in the subjects they le
 
 
 *Installing Guide lines*
+=====================================
+
+*Installing for the first time*
 ------------------------------------
 
 Navigate to Anonymous Tutor/flask_backend:
@@ -26,14 +29,27 @@ Navigate to Anonymous Tutor/flask_backend:
   pip install tensorflow
 
   flask run
+  
+*General installation*
+------------------------------------
 
-=====================================
+Navigate to Anonymous Tutor/flask_backend:
+  
+ .\env\Scripts\activate
+  
+  flask run
+ 
+*To Start the nodemon server*
+------------------------------------
 
 Navigate to Anonymous Tutor/backend:
 
   npm install nodemon
 
   nodemon server
+  
+*To start React application*  
+------------------------------------
   
 Navigate to Anonymous Tutor  
   
