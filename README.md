@@ -11,48 +11,55 @@ In general, a majority of students need an extra support in the subjects they le
 
 *Installing for the first time*
 ------------------------------------
+Open Command Prompt
 
-Navigate to Anonymous Tutor/flask_backend:
+Flask server
+   Navigate to Anonymous Tutor/flask_backend:
 
-   py -m env env
+   Create a virtual python environment
+     py -m env env
 
-  .\env\Scripts\activate
+   Activate the created environment
+     .\env\Scripts\activate
 
-  pip install flask
+   Install the required libraries
+     pip install flask
+     pip install python-dotenv
+     pip install mediapipe
+     pip install tensorflow
 
-  pip install python-dotenv
 
-  pip install mediapipe
+   create a .flaskenv and add the following code into it
+      FLASK_APP=main.py
+      FLASK_ENV=development
 
-  create a .flaskenv and add main.py into it
+   run flask server
+     flask run
 
-  pip install tensorflow
-
-  flask run
-  
-*General installation*
+*Install required npm libraries
 ------------------------------------
-
-Navigate to Anonymous Tutor/flask_backend:
-  
- .\env\Scripts\activate
-  
-  flask run
+   npm install axios
+   npm install nodemon
  
 *To Start the nodemon server*
 ------------------------------------
 
 Navigate to Anonymous Tutor/backend:
-
-  npm install nodemon
-
   nodemon server
+  
+If the above code display an error install following libraries:
+  npm install cors
+  npm install cookie-session
+  npm install cookie-parser
+  npm install express-session
+  npm install connect-mongodb-session
+  npm install nodemailer
+  npm install bcrypt
   
 *To start React application*  
 ------------------------------------
-  
 Navigate to Anonymous Tutor  
-  
+  npm install
   npm start
 
 
