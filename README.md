@@ -16,38 +16,37 @@ Open Command Prompt
 Flask server
   * Navigate to Anonymous Tutor/flask_backend:
 
-  ..* Create a virtual python environment
-     py -m env env
+  * Create a virtual python environment
+   py -m env env
 
-  --* Activate the created environment
-     .\env\Scripts\activate
+  * Activate the created environment
+   .\env\Scripts\activate
 
-  --*  Install the required libraries
-     pip install flask
-     pip install python-dotenv
-     pip install mediapipe
-     pip install tensorflow
+  *  Install the required libraries
+   pip install flask
+   pip install python-dotenv
+   pip install mediapipe
+   pip install tensorflow
 
+  * create a .flaskenv and add the following code into it
+   FLASK_APP=main.py
+   FLASK_ENV=development
 
-  --*  create a .flaskenv and add the following code into it
-      FLASK_APP=main.py
-      FLASK_ENV=development
-
-  --*  run flask server
-     flask run
+  *  run flask server
+   flask run
 
 *Install required npm libraries
 ------------------------------------
-   npm install axios
-   npm install nodemon
+  * npm install axios
+  * npm install nodemon
  
 *To Start the nodemon server*
 ------------------------------------
 
---* Navigate to Anonymous Tutor/backend:
+  * Navigate to Anonymous Tutor/backend:
   nodemon server
   
---* If the above code display an error install following libraries:
+  * If the above code display an error install following libraries:
   npm install cors
   npm install cookie-session
   npm install cookie-parser
@@ -58,7 +57,7 @@ Flask server
   
 *To start React application*  
 ------------------------------------
---* Navigate to Anonymous Tutor  
+  * Navigate to Anonymous Tutor  
   npm install
   npm start
 
