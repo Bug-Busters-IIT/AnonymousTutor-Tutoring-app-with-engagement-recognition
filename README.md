@@ -9,7 +9,7 @@ In general, a majority of students need an extra support in the subjects they le
 ## Installing Guide lines
 =====================================
 
-<dl>### Installing for the first time
+<dl> ### Installing for the first time
 ------------------------------------
 
   * <dt>Open Command Prompt
@@ -40,14 +40,20 @@ In general, a majority of students need an extra support in the subjects they le
 
  Install required npm libraries
 ------------------------------------
-  * npm install axios
-  * npm install nodemon
+
+
+             npm install axios
+             
+             
+             npm install nodemon
  
 To Start the nodemon server
 ------------------------------------
 
   * Navigate to Anonymous Tutor/backend:
-    ...nodemon server
+
+
+            nodemon server
   
   * If the above code display an error install following libraries:
 
