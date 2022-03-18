@@ -6,13 +6,13 @@ In general, a majority of students need an extra support in the subjects they le
 
 
 
-### Installing Guide lines
+## Installing Guide lines
 =====================================
 
-#### *Installing for the first time*
+### Installing for the first time
 ------------------------------------
 
-Open Command Prompt
+<dl>Open Command Prompt
 
 <dl>Flask server
   * <dt>Navigate to Anonymous Tutor/flask_backend:</dt>
@@ -37,12 +37,12 @@ Open Command Prompt
     <dd>flask run</dd>
   </dl>
 
-*Install required npm libraries*
+ Install required npm libraries
 ------------------------------------
   * npm install axios
   * npm install nodemon
  
-*To Start the nodemon server*
+To Start the nodemon server
 ------------------------------------
 
   * Navigate to Anonymous Tutor/backend:
@@ -57,7 +57,7 @@ Open Command Prompt
     npm install nodemailer
     npm install bcrypt
   
-*To start React application*  
+To start React application  
 ------------------------------------
   * Navigate to Anonymous Tutor  
     npm install
