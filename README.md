@@ -16,8 +16,8 @@ Open Command Prompt
 <dl>Flask server
   * <dt>Navigate to Anonymous Tutor/flask_backend:</dt>
 
-  <dt>Create a virtual python environment</dt>
-   <dd>py -m env env</dd>
+  * <dt>Create a virtual python environment</dt>
+    <dd>py -m env env</dd>
 
   * <dt>Activate the created environment</dt>
    <dd>.\env\Scripts\activate</dd>
