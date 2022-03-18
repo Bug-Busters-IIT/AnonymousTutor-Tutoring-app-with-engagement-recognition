@@ -6,15 +6,16 @@ In general, a majority of students need an extra support in the subjects they le
 
 
 
-## Installing Guide lines
+# Installing Guide lines
 =====================================
 
 ### Installing for the first time
 ------------------------------------
 
-  * Open Command Prompt
+Open Command Prompt
 
-  * Flask server
+Flask server
+------------------------------------
  
   * Navigate to Anonymous Tutor/flask_backend:
 
@@ -33,12 +34,9 @@ In general, a majority of students need an extra support in the subjects they le
  
              pip install flask
  
- 
              pip install python-dotenv
  
- 
              pip install mediapipe
- 
  
              pip install tensorflow
  
@@ -48,9 +46,12 @@ In general, a majority of students need an extra support in the subjects they le
 
 
              FLASK_APP=main.py</dd>
+                        
              FLASK_ENV=development</dd>
 
   * run flask server
+
+
              flask run
   
 
