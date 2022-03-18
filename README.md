@@ -45,14 +45,14 @@ Flask server
  
  
 
-  * create a .flaskenv and add the following code into it
+  * Create a .flaskenv and add the following code into it
 
 
              FLASK_APP=main.py</dd>
                         
              FLASK_ENV=development</dd>
 
-  * run flask server
+  * Run flask server
 
 
              flask run
@@ -75,7 +75,7 @@ To Start the nodemon server
 
             nodemon server
   
-  * If the above code display an error install following libraries:
+  * If the above code displays an error, install the following libraries:
 
 
             npm install cors
@@ -97,9 +97,11 @@ To Start the nodemon server
 
 
             npm install bcrypt
+            
   
 To start React application  
 ------------------------------------
+
   * Navigate to Anonymous Tutor  
 
 
