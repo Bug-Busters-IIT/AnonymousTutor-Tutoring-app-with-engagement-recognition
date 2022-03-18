@@ -31,16 +31,16 @@ In general, a majority of students need an extra support in the subjects they le
   * <dt>Install the required libraries</dt>
  
  
-             <dd>pip install flask</dd>
+             pip install flask
  
  
-             <dd>pip install python-dotenv</dd>
+             pip install python-dotenv
  
  
-             <dd>pip install mediapipe</dd>
+             pip install mediapipe
  
  
-             <dd>pip install tensorflow</dd>
+             pip install tensorflow
  
  
 
