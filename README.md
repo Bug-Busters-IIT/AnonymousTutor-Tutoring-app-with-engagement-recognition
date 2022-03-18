@@ -20,20 +20,20 @@ Open Command Prompt
     <dd>py -m env env</dd>
 
   * <dt>Activate the created environment</dt>
-   <dd>.\env\Scripts\activate</dd>
+    <dd>.\env\Scripts\activate</dd>
 
   * <dt>Install the required libraries</dt>
-   <dd>pip install flask</dd>
-   <dd>pip install python-dotenv</dd>
-   <dd>pip install mediapipe</dd>
-   <dd>pip install tensorflow</dd>
+    <dd>pip install flask</dd>
+    <dd>pip install python-dotenv</dd>
+    <dd>pip install mediapipe</dd>
+    <dd>pip install tensorflow</dd>
 
   * <dt>create a .flaskenv and add the following code into it</dt>
-   <dd>FLASK_APP=main.py</dd>
-   <dd>FLASK_ENV=development</dd>
+    <dd>FLASK_APP=main.py</dd>
+    <dd>FLASK_ENV=development</dd>
 
   * <dt>run flask server</dt>
-   <dd>flask run</dd>
+    <dd>flask run</dd>
   </dl>
 
 *Install required npm libraries*
