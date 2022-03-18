@@ -14,7 +14,6 @@ In general, a majority of students need an extra support in the subjects they le
 
 
 
-
 Open Command Prompt
 
 Flask server
@@ -48,9 +47,9 @@ Flask server
   * Create a .flaskenv and add the following code into it
 
 
-             FLASK_APP=main.py</dd>
+             FLASK_APP=main.py
                         
-             FLASK_ENV=development</dd>
+             FLASK_ENV=development
 
   * Run flask server
 
