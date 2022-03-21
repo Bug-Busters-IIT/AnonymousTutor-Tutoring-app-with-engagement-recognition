@@ -24,7 +24,7 @@ Flask server
   * Create a virtual python environment
  
  
-             py -m env env</dd>
+             py -m env env
 
   * Activate the created environment
  
