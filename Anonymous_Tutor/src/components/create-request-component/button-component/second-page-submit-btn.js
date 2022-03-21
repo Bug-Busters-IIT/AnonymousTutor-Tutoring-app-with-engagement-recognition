@@ -9,7 +9,7 @@ const SecondPageSubmitBtn = () => {
         <>
             <div className="row">
                 <div className="col-6">
-                    <button className="submit" type="submit">SUBMIT</button>
+                    <button className="submit" type="submit" onSubmit={()=>{navigate2('/request_support')}}>SUBMIT</button>
                 </div>
             </div>
         </>

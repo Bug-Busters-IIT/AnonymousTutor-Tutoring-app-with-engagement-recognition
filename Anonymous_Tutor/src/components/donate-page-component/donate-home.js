@@ -9,11 +9,7 @@ import DonateCard from "./donate-card";
 const DonateHome = () => {
     return (
         <>
-            <div style={{
-                width: "100%",
-                height: "961px",
-                background: "rgba(0, 0, 0, 0.5)"
-            }}>
+            <div >
                 <Image/>
 
                 <div style={{display:"flex",justifyContent:"center"}}>

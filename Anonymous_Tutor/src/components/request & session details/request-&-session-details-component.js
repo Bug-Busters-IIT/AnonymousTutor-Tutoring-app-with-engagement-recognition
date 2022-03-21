@@ -14,13 +14,13 @@ const RequestSessionDetailsComponent = () =>
 
     return(
         <>
+            <BgComponent/>
             <div className="image2">
                 <div style={{
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center"
                 }}>
-                    <BgComponent/>
                     <div className="row">
                         <SessionCardComponent data={location.state}/>
                     </div>

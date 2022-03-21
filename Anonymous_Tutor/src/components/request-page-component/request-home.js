@@ -10,6 +10,8 @@ import Progressbar from '../accept-request-component/progressbar-component/progr
 const RequestHome = () => {
     return (
         <>
+            <RequestImageComponent/>
+
             {/*Background image*/}
             <div>
                 <div style={{
@@ -18,11 +20,9 @@ const RequestHome = () => {
                     justifyContent: "center"
                 }}>
                 </div>
-                <RequestImageComponent/>
-
-                <div className="row g-0" style={{marginTop:"270px",marginLeft:"318px"}}>
-                    <div className="col-6"><RequestCardComponent/></div>
-                    <div className="col-6"> <JoinSessionCard/></div>
+                <div style={{marginTop:"270px",marginLeft:"318px"}}>
+                    <div style={{marginLeft:"200px"}}><RequestCardComponent/></div>
+                    {/* <div className="col-6"> <JoinSessionCard/></div> */}
                 </div>
                 {/*<div style={{marginTop: "100px"}}>*/}
                 {/*    <div className="row">*/}

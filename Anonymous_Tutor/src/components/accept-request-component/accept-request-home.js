@@ -33,7 +33,7 @@ const AcceptRequestHome = () => {
     return (
         <>
             <div >
-
+            <RequestImageComponent/>
                 {/* Background image */}
                 <div className="image2" style={{overflowX:"scroll"}}>
                     <div style={{
@@ -42,7 +42,7 @@ const AcceptRequestHome = () => {
                         justifyContent: "center"
                     }}>
                     </div>
-                        <RequestImageComponent/>
+                        
 
                        
                         <div >

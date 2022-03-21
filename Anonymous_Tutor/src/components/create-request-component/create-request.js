@@ -10,6 +10,7 @@ import SecondCardComponent from "./card-component/second-card-component";
 const CreateRequest = () => {
     return (
         <>
+            <Page2Bg/>
             {/*Background image*/}
             <div className="image2">
                 <div style={{
@@ -17,7 +18,7 @@ const CreateRequest = () => {
                     alignItems: "center",
                     justifyContent: "center"
                 }}>
-                    <Page2Bg/>
+                    
 
                     <div>
                         <div className="row">

@@ -38,13 +38,14 @@ const CardContentText = () => {
                 color: "white", fontFamily: "Salsa",
                 fontStyle: "normal",
                 fontWeight: "normal",
+                width:"800px",
                 fontSize: "25px",
                 lineHeight: "normal",
             }}>
                 <p>
                     Screen share facility <br/>
                     Built in white board <br/>
-                    Ability to chat with host and participants <br/>
+                    Optimized teaching platform within the web application <br/>
                     Ability to donate via online payment gateway <br/>
                     Mutlingual support <br/>
                     E-library facility <br/>

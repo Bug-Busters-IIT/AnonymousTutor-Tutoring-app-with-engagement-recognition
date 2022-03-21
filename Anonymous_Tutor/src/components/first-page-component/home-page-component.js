@@ -10,11 +10,7 @@ import CardFormBtn from "./card-component/card-form-btn-component/card-form-btn-
 const HomePageComponent = () => {
     return (
         <>
-            <div style={{
-                width: "100%",
-                height: "745px",
-                background: "rgba(0, 0, 0, 0.5)"
-            }}>
+            <div>
                 <Image/>
 
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
@@ -26,7 +22,7 @@ const HomePageComponent = () => {
                 <div className="row g-0" style={{marginTop: "50px"}}>
                     <CardComponent/>
                 </div>
-                <div className="row g-0" style={{marginTop: "50px", height: "187px"}}>
+                <div className="row g-0" style={{ height: "187px"}}>
                     <div style={{display: "flex", justifyContent: "end", alignItems: "end"}}>
                         <CardFormBtn/>
                     </div>

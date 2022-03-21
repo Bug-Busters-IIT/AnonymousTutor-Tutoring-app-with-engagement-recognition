@@ -21,10 +21,10 @@ const RequestSupport = () => {
                 <RequestImageComponent/>
 
                 <center>
-                <div className="row" style={{marginTop:"270px",display:"block", marginLeft: "auto", marginRight: "auto"}}>
-                    <div className="col-12"><RequestCardComponent/></div>
-                    {/* <div className="col-6"> <JoinSessionCard/></div> */}
-                </div>
+                    <div className="row" style={{marginTop:"320px"}}>
+                        <div className="col-6" style={{marginLeft:"100px"}}><RequestCardComponent/></div>
+                        <div className="col-6" style={{marginLeft:"-200px"}}> <JoinSessionCard/></div>
+                    </div>
                 </center>
                 {/*<div style={{marginTop: "100px"}}>*/}
                 {/*    <div className="row">*/}

@@ -15,6 +15,7 @@ const SessionCardDetails = (data) => {
   const notes_for_students = data.data.data.note;
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
+  const [link, setLink] = useState("");
   const email = data.data.data.email;
 
   console.log("my note " + note);
@@ -33,7 +34,8 @@ const SessionCardDetails = (data) => {
         notes_for_students,
         date,
         time,
-        email
+        email,
+        link
     };
 
     axios
@@ -177,6 +179,18 @@ const SessionCardDetails = (data) => {
                                                       onChange={(e) => {
                                                         setTime(e.target.value);
                                                       }}/>
+                                </div>
+
+                                <div className="col-6"
+                                     style={{color: "black", fontWeight: "bold", fontSize: "24px", paddingTop: "12px"}}>
+                                    <label> Link :</label>
+                                </div>
+
+                                <div className="col-6 " style={{marginTop: "-30px", marginLeft: "150px"}}>
+                                    <input className="input" type="text"
+                                                        onChange={(e) => {
+                                                            setLink(e.target.value);
+                                                        }}/>
                                 </div>
 
                                 <div>

@@ -73,7 +73,7 @@ const CardForm = () => {
                 </div>
                 <div className="col-6">
                     {/*<button className="crete-btn">Creat Account</button>*/}
-                    <button className="crete-btn" onClick={()=>{navigate('/second')}}>Creat Account</button>
+                    <button className="crete-btn" onClick={()=>{navigate('/second')}}>Create Account</button>
                 </div>
 
             </div>

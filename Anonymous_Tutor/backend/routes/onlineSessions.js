@@ -10,8 +10,8 @@ var dotenv = require('dotenv');
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD
+      user: 'teamanonymoustutor@gmail.com',
+      pass: 'anonyMous123#'
     }
   });
 
@@ -27,6 +27,7 @@ router.route("/create_session").post((req, res)=>{
     const date = req.body.date;
     const time = req.body.time;
     const email = req.body.email;
+    const link = req.body.link;
 
     //Add data to model
     const newSession = new session({
@@ -36,6 +37,7 @@ router.route("/create_session").post((req, res)=>{
         notes_for_students,
         date,
         time,
+        link
     });
 
     //Save to database
@@ -45,7 +47,7 @@ router.route("/create_session").post((req, res)=>{
             from: process.env.EMAIL,
             to: email,
             subject: 'New Session',
-            text: 'New Session has been scheduled on ' + date + ' from ' + time + ' for ' + 'Grade ' + grade + ' ' + subject + '-' + lesson
+            text: 'New Session has been scheduled on ' + date + ' from ' + time + ' for ' + 'Grade ' + grade + ' ' + subject + '-' + lesson + '\n link :' + link
           };
           
           transporter.sendMail(mailOptions, function(error, info){

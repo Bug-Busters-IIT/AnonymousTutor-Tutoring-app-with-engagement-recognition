@@ -5,7 +5,7 @@ const RequestImageComponent = () =>
 {
     return (
         <>
-            <img src={backgroundImage2} className={"wrapper4"} alt=""/>
+            <img src={backgroundImage2} className={"wrapper19"} alt=""/>
         </>
     );
 };

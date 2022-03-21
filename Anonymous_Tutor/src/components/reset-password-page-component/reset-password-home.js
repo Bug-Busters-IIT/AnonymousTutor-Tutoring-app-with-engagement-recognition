@@ -8,6 +8,7 @@ import ThirdCardComponent from "../third-page-component/card-coomponent/third-ca
 const ResetPasswordHome = () => {
     return (
         <>
+            <ImageBg3/>
             {/*Background image*/}
             <div className="image2">
                 <div style={{
@@ -15,7 +16,7 @@ const ResetPasswordHome = () => {
                     alignItems: "center",
                     justifyContent: "center"
                 }}>
-                    <ImageBg3/>
+                    
                     <div>
                         <div className="row">
                             <ResetPassCard/>

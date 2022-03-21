@@ -1,14 +1,14 @@
 .coming-soon-image {
-    width: 520px;
-    height: 491px;
-    opacity: 0.6;
+  width: 420px;
+  height: 391px;
+  opacity: 0.6;
+  margin-left: 100px;
 }
 
 @font-face {
-    font-family: "Salsa";
-    src: local("Salsa"),
-    url("../../fonts/Salsa-Regular.ttf") format("truetype");
-    font-weight: normal;
+  font-family: "Salsa";
+  src: local("Salsa"), url("../../fonts/Salsa-Regular.ttf") format("truetype");
+  font-weight: normal;
 }
 
 /*.row {*/

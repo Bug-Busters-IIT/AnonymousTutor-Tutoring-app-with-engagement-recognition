@@ -7,6 +7,7 @@ const ThirdPageHome = () =>
 {
 return (
     <>
+        <ImageBg3/>
         {/*Background image*/}
         <div className="image2">
             <div style={{
@@ -14,7 +15,7 @@ return (
                 alignItems: "center",
                 justifyContent: "center"
             }}>
-                <ImageBg3/>
+                
                 <div>
                     <div className="row">
                         <ThirdCardComponent/>
