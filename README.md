@@ -71,7 +71,7 @@ To Start the nodemon server
   * Navigate to Anonymous Tutor/backend:
 
 
-            nodemon server
+            nodemon server/nodemon start
   
   * If the above code displays an error, install the following libraries:
 
