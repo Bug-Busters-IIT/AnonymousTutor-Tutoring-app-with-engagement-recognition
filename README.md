@@ -16,7 +16,7 @@ In general, a majority of students need an extra support in the subjects they le
 
 Open Command Prompt
 
-Flask server
+Set up Flask server
 ------------------------------------
  
   * Navigate to Anonymous Tutor/flask_backend:
