@@ -94,8 +94,10 @@ To Start the nodemon server
 To start React application  
 ------------------------------------
 
-  * Navigate to Anonymous Tutor  
+  * Navigate to Anonymous Tutor 
 
+           
+            npm install axios
 
             npm install
 
