@@ -117,7 +117,7 @@ while cap.isOpened():
                 if not successO:
                     break
                 face_detector = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')       # detect the face ,crop, pass it to the detection model
-                gray_frame = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)                                            # converting rgb to grayscale
+                gray_frame = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)                                            # converting rgb to grayscale images
 
                     # detect faces available on camera
                 num_faces = face_detector.detectMultiScale(gray_frame, 1.1, 6, minSize=(150, 150) )         # collect multiple images
