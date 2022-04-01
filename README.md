@@ -95,7 +95,7 @@ To Start the nodemon server
             
   
 To start React application  
-------------------------------------
+----------------------------------
 
   * Navigate to Anonymous Tutor 
 
