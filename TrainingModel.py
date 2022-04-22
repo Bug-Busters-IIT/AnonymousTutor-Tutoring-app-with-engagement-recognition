@@ -24,6 +24,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import Callback, EarlyStopping, ReduceLROnPlateau
 from sklearn import model_selection
 from math import ceil
+import pickle
 
 
 # Loads csv files and appends pixels to X and labels to y
@@ -96,16 +97,16 @@ def dataAugmentation(x_train):
     return datagen
 
 
-def showAugmentedImages(datagen, x_train, y_train):
-    it = datagen.flow(x_train, y_train, batch_size=1)
-    plt.figure(figsize=(10, 7))
-    for i in range(25):
-        plt.subplot(5, 5, i + 1)
-        plt.xticks([])
-        plt.yticks([])
-        plt.grid(False)
-        plt.imshow(it.next()[0][0], cmap='gray')
-    plt.show()
+# def showAugmentedImages(datagen, x_train, y_train):
+#     it = datagen.flow(x_train, y_train, batch_size=1)
+#     plt.figure(figsize=(10, 7))
+#     for i in range(25):
+#         plt.subplot(5, 5, i + 1)
+#         plt.xticks([])
+#         plt.yticks([])
+#         plt.grid(False)
+#         plt.imshow(it.next()[0][0], cmap='gray')
+#     plt.show()
 
 
 def defineModel(input_shape=(48, 48, 1), classes=5):
@@ -184,10 +185,13 @@ def saveModelWeights(model, test_acc):
     # Serialize and save model to JSON
     test_acc = int(test_acc * 10000)
     model_json = model.to_json()
-    with open('Saved-Models\\model' + str(test_acc) + '.json', 'w') as json_file:
+    with open('Saved-Models\\model.json', 'w') as json_file:
         json_file.write(model_json)
     # Save weights to JSON
-    model.save_weights('Saved-Models\\model' + str(test_acc) + '.h5')
+    model.save_weights('Saved-Models\\model.h5')
+
+    with open('Saved-Models\\model' + str(test_acc) + '.pkl', 'wb') as file:
+        pickle.dump(model, file)
 
 
 def trainModel():
@@ -246,20 +250,20 @@ trainModel()
 
 from sklearn.metrics import confusion_matrix
 from mlxtend.plotting import plot_confusion_matrix
-
+from sklearn.metrics import classification_report
 
 X, y = preprocessData()
 X, y = cleanAndNormalizeData(X, y)
 x_train, y_train, x_val, y_val, x_test, y_test = splitData(X, y)
 
 # Load model from JSON file
-json_file = open('/content/Saved-Models\model8441.json', 'r')
+json_file = open('/content/Saved-Models\model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 model = model_from_json(loaded_model_json)
 
-# Load weights and them to model
-model.load_weights('/content/Saved-Models\model8441.h5')
+#Load weights and them to model
+model.load_weights('/content/Saved-Models\model.h5')
 
 pred_test_labels = model.predict(x_test)
 
@@ -267,6 +271,7 @@ conf_mat = confusion_matrix(y_test.argmax(axis=1), pred_test_labels.argmax(axis=
 
 emotions = {0: 'neutral', 1: 'happiness', 2: 'surprise', 3: 'sadness', 4: 'anger'}
 
+#Plot confusion matrix
 fig, ax = plot_confusion_matrix(conf_mat=conf_mat,
                                 colorbar=True,
                                 show_normed=True,
@@ -274,3 +279,40 @@ fig, ax = plot_confusion_matrix(conf_mat=conf_mat,
                                 class_names=emotions.values(),
                                 figsize=(8, 8))
 fig.show()
+#Print classifation report
+print(classification_report(y_test.argmax(axis=1), pred_test_labels.argmax(axis=1), target_names=emotions.values()))
+
+import numpy as np
+
+#Returns the relavent label number to test data
+def find_label(i):
+  large = -1
+  count = 0
+  index = -1
+  for j in y_test[i]:
+    if(j>large):
+      large = j
+      index = count
+    count+=1
+  return index
+  
+emotions = ['neutral  ','happiness','surprise ','sadness  ','anger    ']
+
+pred_test_labels = model.predict(x_test)
+prediction = np.argmax(pred_test_labels,axis=1)
+
+count = 0
+total = 0
+score = 0
+
+#Unit test the model and display the results
+for i in prediction:
+  label = find_label(count)
+  print("Image: ",count+1," Prediction: ",emotions[i],"   Label: ",emotions[label],end=" : ")
+  if(i == label):
+    score += 1
+    print(" Pass")
+  else:
+    print(" Fail")
+  count+=1
+  total+=1
