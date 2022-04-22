@@ -44,9 +44,10 @@ Set up Flask server
              pip install mediapipe
  
              pip install tensorflow
+             
+             pip install flask flask_cors
  
  
-
   * Create a .flaskenv and add the following code into it
 
 
