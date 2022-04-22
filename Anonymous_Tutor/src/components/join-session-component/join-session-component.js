@@ -29,19 +29,18 @@ function JoinSession() {
     .then((response) => {
       const res =response.data
       setProfileData(({
-        profile_name: res.name,
-        engagement:res.test}))
-        if (res.test == "Distracted"){
+        engagement:res.engagement}))
+        if (res.engagement == "Distracted"){
           new Notification('Alert from Engagement Detector',{ 
             body:"Hey! you are Distracted",
           });
         }
-        if (res.test == "Person not detected"){
+        if (res.engagement == "Person not detected"){
           new Notification('Alert from Engagement Detector',{ 
             body:"Hey! where are you?",
           });
         }
-        if (res.test == "Sleeping"){
+        if (res.engagement == "Sleeping"){
           new Notification('Alert from Engagement Detector',{ 
             body:"Hey! Are you sleeping? WAKE UP!",
           });
